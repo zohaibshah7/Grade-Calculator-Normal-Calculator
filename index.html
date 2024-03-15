@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Grade Calculator -->
+        <div class="calculator-container grade-calculator">
+
+            <h2>Grade Calculator</h2>
+
+            <div class="form-group">
+            <label for="english">English:</label>
+            <input type="number" id="english" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="math">Math:</label>
+            <input type="number" id="math" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="physics">Physics:</label>
+            <input type="number" id="physics" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="islamiyat">Islamiyat:</label>
+            <input type="number" id="islamiyat" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="urdu">Urdu:</label>
+            <input type="number" id="urdu" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="biology">Biology:</label>
+            <input type="number" id="biology" min="0" max="100">
+            </div>
+
+            <div class="form-group">
+            <label for="chemistry">Chemistry:</label>
+            <input type="number" id="chemistry" min="0" max="100">
+            </div>
+
+            <button onclick="calculateGrade()">Calculate</button>
+
+            <div class="result" id="result"></div>
+        </div>
+    
+        <!-- Normal Calculator -->
+        <div class="calculator-container">
+
+            <h2>Normal Calculator</h2>
+
+            <input type="text" id="calc-screen" disabled>
+
+            <div class="calculator-buttons">
+
+              <button id="btn-7">7</button>
+              <button id="btn-8">8</button>
+              <button id="btn-9">9</button>
+              <button id="btn-plus">+</button><br>
+              <button id="btn-4">4</button>
+              <button id="btn-5">5</button>
+              <button id="btn-6">6</button>
+              <button id="btn-minus">-</button><br>
+              <button id="btn-1">1</button>
+              <button id="btn-2">2</button>
+              <button id="btn-3">3</button>
+              <button id="btn-multiply">*</button><br>
+              <button id="btn-0">0</button>
+              <button id="btn-dot">.</button>
+              <button id="btn-clear">C</button>
+              <button id="btn-equal">=</button><br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+      <script src="./app.js"></script>
+</body>
+</html>
