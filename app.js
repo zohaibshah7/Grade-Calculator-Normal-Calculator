@@ -13,15 +13,15 @@ function calculateGrade() {
     var grade;
 
     if (average >= 90) {
-      grade = 'A😎';
+      grade = '"A"😎';
     } else if (average >= 80) {
-      grade = 'B😏';
+      grade = '"B"😏';
     } else if (average >= 70) {
-      grade = 'C🤨';
+      grade = '"C"🤨';
     } else if (average >= 60) {
-      grade = 'D🥱';
+      grade = '"D"🥱';
     } else {
-      grade = 'Fail🤣';
+      grade = '"F"🤣';
     }
 
     document.getElementById("result").innerHTML = "Your grade is: " + grade;
@@ -29,7 +29,7 @@ function calculateGrade() {
 
 let screen = document.getElementById('calc-screen');
 
-// Simple Calculator
+// Normal Calculator
 let buttons = {
   'btn-0': '0',
   'btn-1': '1',
